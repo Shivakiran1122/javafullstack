@@ -42,13 +42,62 @@ These are  version control software.They are used to store all the developers so
   to understand the problem. <br/>
  To connect from one  computer to another computer  use a tool called  putty/WinScp.<br/>
  Like today we got a bug login functionality not working  check log file understand problem let me know the fix. <br/>
- **6.Unit Testing** **(Junit & PowerMock)**
+ **6.Unit Testing** **(Junit & PowerMock-(one of Mockito Frame Work)**
  let us take an example I am wirting a method
  m1()
  {
- // 10 lines in m1 method  10 lines of code is available  how this 10 lines  of codde is available
- }
+ // 10 lines in m1 method  10 lines of code is available  how this 10 lines  of code is available<br/>
+ }<br/>
   
+  how 10 lines of code is woprking i am creating one more method <br/>
+  m1test()<br/>
+  {
+   test m1 logic<br/>
+  }<br/>
+  To write that test method we are going to use the tool Junit .It is unit testing framework for the java project. <br/>
+ **7. Code Coverage** **(Jacocco)** <br/>
+ Code coverage is m1 method having 10 lines.  I want  to test 10 lines of code working as excepted  or not.  to test m1 method functionality i am creating one more method m1test(). in m1test method i am executing m1 method. so in m1 how many lines of code  tested   and not tested by testmethod we will  identify that using jacocco.**(Code Coverage Software)**<br/>
+**Note: Industry Standard 80% of  coverage should be available**<br/>
+If you write 100 lines of code in project 80 lines of code should be tested using Junit.
+**you need to write the code  and  that code you need to test it by writing  junit code. how many lines of code you tested by junit they will  identify using jacccoco.**<br/>
+once you complete unit testing  testing team will test functionality of whole project.<br/>
+ As part of Junit we are going to use mocking for that we are going to use power mock.<br/>
+ **8. Code Review** **(SonarQube)**<br/>
+ what ever the code we are writing is there any bug in the code are we following proper code standards is there any dublicate code availble in the in project, security issuess. Develpoer is responisble for this. after review of code then only commit code for github repository.<br/>
+**9.JMETER** **(Perfomrance Testing)**<br/>
+how our project behave when multiple users access our project at a time.
+**10. JENKINS(CI/CD) Tools**<br/>
+Jenkins is used for  **automating build and deployment** by using CI/ CD. what ever the code we have in the GITHUB that we need to deploy to server automatically.
+when i click a button it should download latest code, it should compile , it should package, it has to deploy the code on to server.<br/>
+**Project gets deploy in company using JENKINS.**<br/>
+(Jenkins is must for developer, tester, devops Engineer).<br/>
+**11. Docker** (Containerization PlatForm)<br/>
+ we are going to deploy applications  using docker.<br/>
+**12.Kubernetes** -(Orchestration Platform)<br/>
+**13. Apache Kafka**<br/>
+Exachanging  messages from one application to another application.<br/>
+**14.Redis Cache**<br/>
+**15.POSTMAN**<br/>
+Testing back end api's using postman.<br/>
+**16.Swagger**<br/>
+ API Documentation
+**POSTMAN and Swagger is must for every spring boot developer.**<br/>
+**Any Project Requirements:**<br/>
+1.Requirment Analysis<br/><br/>
+2.Development<br/>
+3.Testing<br/>
+4.Deployment<br/>
+**Cloud PlatForm** : AWS (Important Services Like Compute (EC2), Storage(S3), RDBMS(Mysql), Networking(VPC).<br/>
+ **Front End**: HTML, CSS, JavaScript, ReactJs.<br/>
+
+
+
+ 
+ 
+ 
+
+ 
+ 
  
 .
  
