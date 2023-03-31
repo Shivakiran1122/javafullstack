@@ -65,7 +65,7 @@ once you complete unit testing  testing team will test functionality of whole pr
  **8. Code Review** **(SonarQube)**<br/>
  what ever the code we are writing is there any bug in the code are we following proper code standards is there any dublicate code availble in the in project, security issuess. Develpoer is responisble for this. after review of code then only commit code for github repository.<br/>
 **9.JMETER** **(Perfomrance Testing)**<br/>
-how our project behave when multiple users access our project at a time.
+how our project behave when multiple users access our project at a time.<br/>
 **10. JENKINS(CI/CD) Tools**<br/>
 Jenkins is used for  **automating build and deployment** by using CI/ CD. what ever the code we have in the GITHUB that we need to deploy to server automatically.
 when i click a button it should download latest code, it should compile , it should package, it has to deploy the code on to server.<br/>
