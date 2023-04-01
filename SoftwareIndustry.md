@@ -49,19 +49,19 @@ Microsoft pays wges to HCL . HCL pay wage to employee.<br/>
 1.**Scratch Project**- 10%<br/>
 2.**Maintence/ Support Project** -80% -(adding  new functionality to exisiting project, chance exisiting functionality, fix probelms in project).<br/>
  Work in Maintence Project:<br/>
- 1.**Change Request -(CR) Modifying Existing Code:**<br/>
- functionality already existing client asking  to change behaviour. <br/>
- Like preveioulsy email OTP validation now client Requirement is Mobile OTP validation.<br/>
- Earlier exporting data to Excel file. now client want to export data to PDF file.<br/>
- 2.**New Enhancement : Adding new Functionality in existing project**<br/>
- Example:Currently providing facility to book train .Now we want to add functionality to book flight ticket.<br/>
- 3.**Bug Fixing :** 
- Project already Running  customers are accessing but  we are getting bugs in the project we need to fix bugs available in code.<br/>
-**we need to monitor the log files using putty/ winscp/splunk.**<br/>
- **By using any of these like putty/winscp/ splunk software we can connect to log server and analyze the log messages in log files and fix the bugs in the project.**<br/>
- 4.**Production Support: (Complete Monitoring)**(Critical Task)<br/>
-We need to monitor the logs 24/7.we need to report the bugs to the development team.<br/>
-They give you access for splunk  24/ 7.we need to monitor the logs.when exception occured take screenshot of exception send exception to deveploemnt team they analyze the problem and fix it.<br/>
+        1.**Change Request -(CR) Modifying Existing Code:**<br/>
+        functionality already existing client asking  to change behaviour. <br/>
+        Like preveioulsy email OTP validation now client Requirement is Mobile OTP validation.<br/>
+        Earlier exporting data to Excel file. now client want to export data to PDF file.<br/>
+        2.**New Enhancement : Adding new Functionality in existing project**<br/>
+        Example:Currently providing facility to book train .Now we want to add functionality to book flight ticket.<br/>
+        3.**Bug Fixing :** 
+        Project already Running  customers are accessing but  we are getting bugs in the project we need to fix bugs available in code.<br/>
+       **we need to monitor the log files using putty/ winscp/splunk.**<br/>
+       **By using any of these like putty/winscp/ splunk software we can connect to log server and analyze the log messages in log files and fix the bugs in the project.**<br/>
+       4.**Production Support: (Complete Monitoring)**(Critical Task)<br/>
+       We need to monitor the logs 24/7.we need to report the bugs to the development team.<br/>
+       They give you access for splunk  24/ 7.we need to monitor the logs.when exception occured take screenshot of exception send exception to deveploemnt team they analyze the problem and fix it.<br/>
 3.**Migration Project -10%** -(upgrading project to latest technology. changing project from one Tech to another Tech)<br/>
 **Example:** Earlier projects are developed using IBM MainFrames techonlogy. Now they are develpoing using java / python<br/>.
 **------------------------------------------------------------------------------------------------------------------------**<br/>
