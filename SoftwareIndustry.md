@@ -65,6 +65,68 @@ Microsoft pays wges to HCL . HCL pay wage to employee.<br/>
 3.**Migration Project -10%** -(upgrading project to latest technology. changing project from one Tech to another Tech)<br/>
 **Example:** Earlier projects are developed using IBM MainFrames techonlogy. Now they are develpoing using java / python<br/>.
 **------------------------------------------------------------------------------------------------------------------------**<br/>
+**Types of Teams**<br/>
+1.**offshoreTeam**(Development+ Testing + operations) .  here developers, testers, devops Engineers, Cloud Enginners will be there.<br/>
+2.**onshoreTeam**(Client location - Functional Team/ Business  Analysists Team)<br/>
+**Bridge Calls**(Zoom/webEx/Skype)<br/>
+For every meeting we have to prepare MOM(Mintues of meeting).<br/>
+**--------------------------------------------------------------------------------------------------------------------------**<br/>
+**Developers Role & Responsibilities**<br/>
+**1.Understand Requirements :**<br/>
+we get requirements from functional team. b/w develpoment team and client functional team will be there.<br/>
+Functional team share requirement document with development team  and testing team.<br/>
+**2.Query Log Preparation:**<br/>
+It is used to write down all doubts on requirments.<br/>
+**3.Connect with Functional Team:**<br/>
+Functional team is responsible to provide clarification on these doubts.<br/>
+**4.Raise Request for Git Repo Creation:**<br/>
+we need to raise request for devops team to  create git repo or bitbucket repo. by raising JIRA request. Devops team create repo and share details with development team.<br/>
+**5. Raise Request for pipeline Creation :**<br/>
+we need jenkins pipeline to automate build and deployment process of our project. we need to raise request for deveops team  by JIRA .<br/>
+**6.Database Tables Design:**<br/>
+understand how many tables we need for requirments.  what columns we need. the relations we need to normalize the  data.<br/>
+**7.Development /coding**:<br/>
+writing business logic required for the project design.<br/>
+**8.Unit Testing**<br/>
+code developed by developers  must be tested as it is working as excepted or not.<br/>
+**9.Code Review (SonarQube)**<br/>
+mistakes done in code like naming convention, best practises not following in code,chances of getting bugs in code is identified  as part of code review.<br/>
+**10.Code Integration (Repo)**<br/>
+all developers code must be integrated at a place. your code must not effect other team members code available in repository.<br/>
+**11.Code Deployment in Dev Environment**<br/>
+when he/she did coding it worked in local system. Is that code working as execpted after integration. For this jenkins job is created by devops team.<br/>
+**Jenkins pipeline we need to execute to run our code in dev Environment**<br/>.
+**12.Integration Testing- (Developer Integration Testing)**<br/>
+Is our code working perfectly or not after code Integration.<br/>
+**13.Bug Fixing**<br/>
+**14.SIT Support -( System Integration Testing)**<br/>
+ It is done by testing team. They identify bugs and report identified buys by raising JIRA ticket to development team.<br/>
+ If every thing works well they provide cerified code.(SIT passed). Then it goes to UAT.<br/>
+ **15.UAT support**<br/>
+UAT is done by client side team or client. they again test application working properly or not.<br/>
+**16.Production Environment**<br/>
+ It is final environment of the application.<br/>
+**Note: Code which is deployed in production Environment It will be accessed by end users.**<br/>
+when end users are accessing the application there are chances of getting some issues. production issuess.<br/>
+If we dont fix production issue client business will be stopped.<br/>
+**we need to trouble shoot why issue occured. By using logs of the application.** **Hence we need to know to monitor logs of the application by using log monitoring tools like splunk/ putty.**<br/>
+**17. Documentation**<br/>
+project Architecture, modules of project, purpose of each module. exceution flow of the project, database design of the project.<br/>
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
