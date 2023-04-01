@@ -1,5 +1,5 @@
 **Software IT Industry:**<br/>
------------------------------------------------------------------------------------------------------------------
+**-----------------------------------------------------------------------------------------------------------------**<br/>
 **Software Industry Details:**<br/>
 we can see 3 types of Companies in IT:<br/>
 **1.Product Based Companies:** They will develop and Sell in Market.<br/>
@@ -9,7 +9,7 @@ we can see 3 types of Companies in IT:<br/>
 **3.Outsourcing Companies:** will supply employees to other companies.<br/>
 Example HCL is doing outsourcing for mircosoft. Most of  HCL employees work for mircosoft. he/she is  hcl employee but he/she works for microsoft.<br/>
 Microsoft pays wges to HCL . HCL pay wage to employee.<br/>
-**----------------------------------------------------------------------------------------------------------------**
+**----------------------------------------------------------------------------------------------------------------**<br/>
 **Interview Process:**<br/>
 **Product Based Companies:**<br/>
 1.Data Structures<br/>
@@ -33,7 +33,7 @@ Microsoft pays wges to HCL . HCL pay wage to employee.<br/>
 **Interview:** 2 to 3 Rounds.<br/>
 **Package:** Base Package: 3 to 4 lakhs.<br/>
 **Note:** **On-site Opportunity will be there.** (sending other countrys to do the work).<br/>
-**----------------------------------------------------------------------------------------------------------------**
+**----------------------------------------------------------------------------------------------------------------**<br/>
 **Types of Jobs:**<br/>
 **permanent Job :**(More Benefits for employee)<br/>
 1.Health Insurance for family members.<br/>
@@ -44,7 +44,7 @@ Microsoft pays wges to HCL . HCL pay wage to employee.<br/>
 1.Health Insurance for family members (May / May not).<br/>
 2.PF(Provident Fund)- optionl.<br/>
 3.Notice Period (15 to 30 days).<br/>
-**-------------------------------------------------------------------------------------------------------------------**
+**-------------------------------------------------------------------------------------------------------------------**<br/>
 **Types of Projects:**<br/>
 1.**Scratch Project**- 10%<br/>
 2.**Maintence/ Support Project** -80% -(adding  new functionality to exisiting project, chance exisiting functionality, fix probelms in project).<br/>
@@ -64,7 +64,7 @@ We need to monitor the logs 24/7.we need to report the bugs to the development t
 They give you access for splunk  24/ 7.we need to monitor the logs.when exception occured take screenshot of exception send exception to deveploemnt team they analyze the problem and fix it.<br/>
 3.**Migration Project -10%** -(upgrading project to latest technology. changing project from one Tech to another Tech)<br/>
 **Example:** Earlier projects are developed using IBM MainFrames techonlogy. Now they are develpoing using java / python<br/>.
-**------------------------------------------------------------------------------------------------------------------------**
+**------------------------------------------------------------------------------------------------------------------------**<br/>
 
 
 
