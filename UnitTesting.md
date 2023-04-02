@@ -85,6 +85,19 @@ All Junit Jupiter assertions are present in the org.junit.jupiter.Assertions cla
 3.assertNull and assertNotNull<br/>
 4.assertSame and assertNotSame<br/>
 5.assertThrows**<br/>
+**-----------------------------------------------------------------------------------------------------------------------**<br/>
+**Mocking:**
+**Mocking is a process used  in unit testing when the unit being tested has external dependencies.<br/>
+The process of creating substitue object for the real object (Dependency) is called mocking. Here subsitute object can be created using mock frame work**<br/>
+**why Mocking :**<br/>
+ To perform isolated unit testing on the component/ unit.<br/>
+**when  Mocking Required:**<br/>
+ when testing a component  if component having external dependency then we need to go for mocking.<br/>
+ In mocking the dependencies are replaced by closely controlled replacements objects that simulate the behaviour of the real ones.<br/>
+ There are three main possiable types of replacment objects- fakes,stubs and mocks.<br/>
+ There are 2 types of mocking frameworks are available.<br/>
+ 1.stub based mock Frameworks( ex: Easy Mock). ( here some  functionlities are not supported if method is final method, private methods cannot be mocked)
+ 2.ByteCode Manipulation Based Mock Frameworks(Ex power Mock).
 
 
 
