@@ -1,15 +1,15 @@
-Agenda:
-What is unit testing?
-why Unit testing?
-what is Junit?
-Junit5 Introduction
-Junit5 Architecture
-Unit Testing Examples
-Mocking
-Rest API Unit Testing
-Code  Coverage Using Jacocoo
+**Agenda:<br/>
+What is unit testing?<br/>
+why Unit testing?<br/>
+what is Junit?<br/>
+Junit5 Introduction<br/>
+Junit5 Architecture<br/>
+Unit Testing Examples<br/>
+Mocking<br/>
+Rest API Unit Testing<br/>
+Code  Coverage Using Jacocoo<br/>**
 
-What is Unit testing and why?
+**What is Unit testing and why?**<br/>
 
 1.Unit Testing  is type of software testing where individual units or components of a software are tested.<br/>
 In Application development we are going to create several classes in the classes we are going to create several methods.we need to test these methods whether they are working as excepted or not.<br/>
@@ -21,10 +21,10 @@ Once we complete DAO method we first test that DAO method.<br/>
 we have controller method controller talks to service method as part  of unit testing we will only test controller method.<br/>
 Note: Unit  may be individual function , method, procedure, module or object.
 
-In real time project:
+**In real time project:**
 1.first if I write DAO Layer method. We will write unit testing logic for that DAO layer. after Dao layer implementation and testing is completed then we go for service in sevice we do the same thing, then after that in controller same thing. so this way the quality  of the code is been maintained.
 
-What is Junit?
+**What is Junit?**
  Unit testing can be performed in 2 ways one is manual unit testing and second is automatic unit testing.
 Manual unit testing means you going to that method excetute method and see how method is working or we use debugging (in debugging you can execute the program line by line)
  
@@ -51,9 +51,9 @@ public void testfindByEmailAndPwd()
 {
 // unit testing logic (using Junit)
 }
-Note:The  current version of Junit is 5
+**Note:The  current version of Junit is 5**
 
-Implementing Junit:
+**Implementing Junit:**
 1. add Junit dependency. in scope it is mentioned as  test only when test cases are running these dependency must be added to class path of the application.
 
 
