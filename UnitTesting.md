@@ -1,5 +1,4 @@
-**Agenda:<br/>
-What is unit testing?<br/>
+**What is unit testing?<br/>
 why Unit testing?<br/>
 what is Junit?<br/>
 Junit5 Introduction<br/>
@@ -8,7 +7,7 @@ Unit Testing Examples<br/>
 Mocking<br/>
 Rest API Unit Testing<br/>
 Code  Coverage Using Jacocoo<br/>**
-
+**-----------------------------------------------------------------------------------------------------**
 **What is Unit testing and why?**<br/>
 
 1.Unit Testing  is type of software testing where individual units or components of a software are tested.<br/>
@@ -23,7 +22,7 @@ Note: Unit  may be individual function , method, procedure, module or object.
 
 **In real time project:**
 1.first if I write DAO Layer method. We will write unit testing logic for that DAO layer. after Dao layer implementation and testing is completed then we go for service in sevice we do the same thing, then after that in controller same thing. so this way the quality  of the code is been maintained.
-
+**------------------------------------------------------------------------------------------------------**
 **What is Junit?**
  Unit testing can be performed in 2 ways one is manual unit testing and second is automatic unit testing.
 Manual unit testing means you going to that method excetute method and see how method is working or we use debugging (in debugging you can execute the program line by line)
@@ -31,9 +30,8 @@ Manual unit testing means you going to that method excetute method and see how m
 Nows a days  we can perform automated unit testing  It saves our time.
 
 **Note: Junit is a free and open source unit Testing framework for  java applications.It is easy to use.**<br/>
-
 **It is a light weight testing framework which allowed java developers to write unit test cases in Java Language.**<br/>
-In DAO layer:<br/><br/>
+In DAO layer:<br/>
 public USER findByEmailAndPwd(String email, String pwd)<br/>
 {
  // db logic to retrive record<br/>
@@ -50,9 +48,42 @@ public void testfindByEmailAndPwd()<br/>
 // unit testing logic (using Junit)<br/>
 }<br/>
 **Note:The  current version of Junit is 5**<br/>
-
+**-------------------------------------------------------------------------------------------------------**
 **Implementing Junit:**<br/>
 1. add Junit dependency. in scope it is mentioned as  test only when test cases are running these dependency must be added to class path of the application.<br/>
+**Junit 5 Architecture**<br/>
+3 main modules in the Junit 5.<br/>
+**1.Junit Platform.<br/>
+2.Junit Jupiter.<br/>
+3.Junit Vintage.<br/>**
+**1. Junit Platform:** This provide  an environment to run junit test cases using junit5.<br/>
+**2.Junit Jupiter:** It provides new annotations & new assertions in Junit5 for better unit testing.<br/>
+**3.Junit Vintage:** Provide Backward Compatability ( Junit 3 support, Junit 4 support).<br/>
+
+**----------------------------------------------------------------------------------------------------------**
+**Junit 5 Annotations :** <br/>
+1.**@Test** -  used to represnt one method as unit test method.<br/>
+2.**@BeforeEach**-  I want to execute some logic before each test method <br/>
+3.**@AfterEach**-   I want to execute some logic after each test case.<br/>
+4.**@BeforeAll**-   Before all test methods we want to execute one logic.<br/>
+5.**@AfterAll**-    After all test methods we want to execute one logic.<br/>
+6.**@ParameterizedTest** - multiple inputs for one test method (below 4 are used for parameterized testing).<br/> 
+7.**@ValueSource**-  to supply inputs for parameterzied  test.<br/>
+8.**@CsvSource**<br/>
+9.**@CsvFileSource**<br/>
+10.**@MethodSource**<br/>
+11.**@RepeatedTest**- repeat test method  for execution for fixed  number  of times.<br/>
+12.**@Disabled**-  If we want to stop one test method execution.<br/>
+
+
+
+
+
+
+
+
+
+
 
 
 
