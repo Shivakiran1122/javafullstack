@@ -77,8 +77,8 @@ public void testfindByEmailAndPwd()<br/>
 **---------------------------------------------------------------------------------------------------------------**<br/>
 **Junit 5 Assertions :**<br/>
 Junit 5 assertions help us in validating the expected output with the actual output of a test case.<br/>
-In short assertions are nothing but static methods that we  call in our tests to verify the expected behaviour.
-All Junit Jupiter assertions are present in the org.junit.jupiter.Assertions class.
+In short assertions are nothing but static methods that we  call in our tests to verify the expected behaviour.<br/>
+All Junit Jupiter assertions are present in the org.junit.jupiter.Assertions class.<br/>
 **Junit Assertion Methods :**<br/>
 **1.assertEquals and assertNotEquals<br/>
 2.assertTrue and assertFalse<br/>
