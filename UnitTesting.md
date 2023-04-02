@@ -43,14 +43,12 @@ public USER findByEmailAndPwd(String email, String pwd)<br/>
 }
  return null;<br/>
 }
-
-
 perform unit testing for above method<br/>
 
 public void testfindByEmailAndPwd()<br/>
 {
 // unit testing logic (using Junit)<br/>
-}
+}<br/>
 **Note:The  current version of Junit is 5**<br/>
 
 **Implementing Junit:**<br/>
