@@ -96,8 +96,8 @@ The process of creating substitue object for the real object (Dependency) is cal
  In mocking the dependencies are replaced by closely controlled replacements objects that simulate the behaviour of the real ones.<br/>
  There are three main possiable types of replacment objects- fakes,stubs and mocks.<br/>
  There are 2 types of mocking frameworks are available.<br/>
- 1.stub based mock Frameworks( ex: Easy Mock). ( here some  functionlities are not supported if method is final method, private methods cannot be mocked)
- 2.ByteCode Manipulation Based Mock Frameworks(Ex power Mock).
+ 1.stub based mock Frameworks( ex: Easy Mock). ( here some  functionlities are not supported if method is final method, private methods cannot be mocked)<br/>
+ 2.ByteCode Manipulation Based Mock Frameworks(Ex power Mock).<br/>
 
 
 
