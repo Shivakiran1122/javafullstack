@@ -74,6 +74,21 @@ public void testfindByEmailAndPwd()<br/>
 10.**@MethodSource**<br/>
 11.**@RepeatedTest**- repeat test method  for execution for fixed  number  of times.<br/>
 12.**@Disabled**-  If we want to stop one test method execution.<br/>
+**---------------------------------------------------------------------------------------------------------------**<br/>
+**Junit 5 Assertions :**<br/>
+Junit 5 assertions help us in validating the expected output with the actual output of a test case.<br/>
+In short assertions are nothing but static methods that we  call in our tests to verify the expected behaviour.
+All Junit Jupiter assertions are present in the org.junit.jupiter.Assertions class.
+**Junit Assertion Methods :**<br/>
+**1.assertEquals and assertNotEquals<br/>
+2.assertTrue and assertFalse<br/>
+3.assertNull and assertNotNull<br/>
+4.assertSame and assertNotSame<br/>
+5.assertThrows**<br/>
+
+
+
+
 
 
 
