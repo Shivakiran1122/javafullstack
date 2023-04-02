@@ -30,31 +30,31 @@ Manual unit testing means you going to that method excetute method and see how m
  
 Nows a days  we can perform automated unit testing  It saves our time.
 
-**Note: Junit is a free and open source unit Testing framework for  java applications.It is easy to use.**
+**Note: Junit is a free and open source unit Testing framework for  java applications.It is easy to use.**<br/>
 
-**It is a light weight testing framework which allowed java developers to write unit test cases in Java Language.**
-In DAO layer:
-public USER findByEmailAndPwd(String email, String pwd)
+**It is a light weight testing framework which allowed java developers to write unit test cases in Java Language.**<br/>
+In DAO layer:<br/><br/>
+public USER findByEmailAndPwd(String email, String pwd)<br/>
 {
- // db logic to retrive record
- if(isPresent)
+ // db logic to retrive record<br/>
+ if(isPresent)<br/><br/>
 {
  return userObj;
 }
- return null;
+ return null;<br/>
 }
 
 
-perform unit testing for above method
+perform unit testing for above method<br/>
 
-public void testfindByEmailAndPwd()
+public void testfindByEmailAndPwd()<br/>
 {
-// unit testing logic (using Junit)
+// unit testing logic (using Junit)<br/>
 }
-**Note:The  current version of Junit is 5**
+**Note:The  current version of Junit is 5**<br/>
 
-**Implementing Junit:**
-1. add Junit dependency. in scope it is mentioned as  test only when test cases are running these dependency must be added to class path of the application.
+**Implementing Junit:**<br/>
+1. add Junit dependency. in scope it is mentioned as  test only when test cases are running these dependency must be added to class path of the application.<br/>
 
 
 
