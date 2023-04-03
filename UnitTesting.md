@@ -89,7 +89,7 @@ All Junit Jupiter assertions are present in the org.junit.jupiter.Assertions cla
 **Mocking:**
 **Mocking is a process used  in unit testing when the unit being tested has external dependencies.<br/>
 The process of creating substitue object for the real object (Dependency) is called mocking. Here subsitute object can be created using mock frame work**<br/>
-**why Mocking :**<br/>
+**why Mocking :**<br/> 
  To perform isolated unit testing on the component/ unit.<br/>
 **when  Mocking Required:**<br/>
  when testing a component  if component having external dependency then we need to go for mocking.<br/>
@@ -98,6 +98,12 @@ The process of creating substitue object for the real object (Dependency) is cal
  There are 2 types of mocking frameworks are available.<br/>
  1.stub based mock Frameworks( ex: Easy Mock). ( here some  functionlities are not supported if method is final method, private methods cannot be mocked)<br/>
  2.ByteCode Manipulation Based Mock Frameworks(Ex power Mock).<br/>
+ **-------------------------------------------------------------------------------------------------------------------------**<br/>
+**REST API**<br/>
+ REST stands for Representational state transfer.
+ it's a software architecture style for implementing web services.
+ Web services implemented using  rest architecture style are known as restful web services.
+  Now a days we are using Spring boot to develop RESTAPI'S
 
 
 
