@@ -103,7 +103,17 @@ The process of creating substitue object for the real object (Dependency) is cal
  REST stands for Representational state transfer.
  it's a software architecture style for implementing web services.
  Web services implemented using  rest architecture style are known as restful web services.
-  Now a days we are using Spring boot to develop RESTAPI'S
+ Now a days we are using Spring boot to develop RESTAPI'S
+ **---------------------------------------------------------------------------------------------------------------------------**<br/>
+ **Code Coverage:**<br/>
+ code Coverage is a metric that  can help us to understand how much of our source code is tested.<br/>
+ It helps us to measure the efficiency of the test implementation.<br/>
+ Using code Coverage report we can see which  lines are missed in unit testing.<br/>
+ Jacocco is one of tthe famous software for measuring code coverage of java applications.<br/>
+ Include jacocco maven plugin in pom.xml.<br/>
+ 
+  
+  
 
 
 
