@@ -34,8 +34,8 @@ Multiple servers will be available to run our application Because application ma
   **To over come this problem and cost we use cloud computing:**<br/>
    To provide IT resources over the internet cloud computing came into the market.<br/>
   **Cloud computing is on demand delivery of IT resources( database, servers, load balancer) over the internet with pay as go pricing( pay only for the amount of time we used)**<br/>
-  Instead of buying, owing and maintaining physical data centers and servers, you can access technology services such as computing power, storage and databases, on an as-needed basics.
- **Cloud Advantages:**
+  Instead of buying, owing and maintaining physical data centers and servers, you can access technology services such as computing power, storage and databases, on an as-needed basics.<br/>
+ **Cloud Advantages:**<br/>
  1.Data Security<br/>
  2.Scalability<br/>
  3.Reduced Costs<br/>
@@ -53,10 +53,10 @@ Multiple servers will be available to run our application Because application ma
  Example : AWS<br/>
 **2. Platform as service (PAAS)**: Just give  Application source code to cloud provider.<br/>
 Cloud provider will prepare infrastructure for your Application.<br/>
-Example: Azure, AWS also providing service  like elastic bean stack
+Example: Azure, AWS also providing service  like elastic bean stack<br/>
 Example :I will just give springboot project then cloud proivder will take server setup a network set up a load balancer establish the connection.<br/>
  **3. Software as a service (SAAS) :** use application which is already developed. <br/>
- Example: GoogleDrive , DropBox.
+ Example: GoogleDrive , DropBox.<br/>
  **AMAZON WEB SERVICES**<br/>
  In 2006 Amazon began offering IT infrastructure services to business as web services- now commonly known as cloud computing.<br/>
  AWS provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousand of  business.<br/>
