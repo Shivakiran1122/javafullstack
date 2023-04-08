@@ -41,19 +41,18 @@ Multiple servers will be available to run our application Because application ma
  3.Reduced Costs<br/>
  4.Mobility<br/>
  5.Disater Recovery<br/>
- If you go for cloud computing  cloud provider provides infrastructure for rent.
- There are several cloud providers available in the market.They are providing services over internet with pay as you go model. 
- 1.AWS(Amazon)
- 2.Azure(Microsoft)
- 3.Google cloud Platform
- 4.salesforce
-**Cloud services are divided into 3 Types**
- **1. Infrastructure as service (IAAS)**: They provide servers,database,network,power.We setup servers (Configuration ) to run your application.**They just give you resources**.we need to take care of the setup that is required for that.
- 
-**2. Platform as service (PAAS)**: Just give  Application source code to cloud provider.
-Cloud provider will prepare infrastructure for your Application.
-Example :I will just give springboot project then cloud proivder will take server setup a network set up a load balancer establish the connection.
- 3. Software as a service (SAAS)
+ If you go for cloud computing  cloud provider provides infrastructure for rent.<br/>
+ There are several cloud providers available in the market.They are providing services over internet with pay as you go model.<br/>
+ 1.AWS(Amazon)<br/>
+ 2.Azure(Microsoft)<br/>
+ 3.Google cloud Platform<br/>
+ 4.salesforce<br/>
+**Cloud services are divided into 3 Types**<br/>
+ **1. Infrastructure as service (IAAS)**: They provide servers,database,network,power.We setup servers (Configuration ) to run your application.**They just give you resources**.we need to take care of the setup that is required for that.<br/> 
+**2. Platform as service (PAAS)**: Just give  Application source code to cloud provider.<br/>
+Cloud provider will prepare infrastructure for your Application.<br/>
+Example :I will just give springboot project then cloud proivder will take server setup a network set up a load balancer establish the connection.<br/>
+ **3. Software as a service (SAAS)**<br/>
  
 
   
