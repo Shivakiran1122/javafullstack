@@ -48,11 +48,31 @@ Multiple servers will be available to run our application Because application ma
  3.Google cloud Platform<br/>
  4.salesforce<br/>
 **Cloud services are divided into 3 Types**<br/>
- **1. Infrastructure as service (IAAS)**: They provide servers,database,network,power.We setup servers (Configuration ) to run your application.**They just give you resources**.we need to take care of the setup that is required for that.<br/> 
+ **1. Infrastructure as service (IAAS)**: They provide servers,database,network,power.We setup servers (Configuration ) to run your application.<br/>
+ **They just give you resources**.we need to take care of the setup that is required for that.<br/> 
+ Example : AWS<br/>
 **2. Platform as service (PAAS)**: Just give  Application source code to cloud provider.<br/>
 Cloud provider will prepare infrastructure for your Application.<br/>
+Example: Azure, AWS also providing service  like elastic bean stack
 Example :I will just give springboot project then cloud proivder will take server setup a network set up a load balancer establish the connection.<br/>
- **3. Software as a service (SAAS)**<br/>
+ **3. Software as a service (SAAS) :** use application which is already developed. <br/>
+ Example: GoogleDrive , DropBox.
+ **AMAZON WEB SERVICES**<br/>
+ In 2006 Amazon began offering IT infrastructure services to business as web services- now commonly known as cloud computing.<br/>
+ AWS provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousand of  business.<br/>
+**Elastic Compute Cloud: (EC2)** Amazon Elastic Cloud is  part of Amazon  web service that allows users to rent virtual computers on which to run their own  computer applications.<br/>
+**S3 Bucket (Simple storage service) :** Object storage built to store & retrive any amount of data from any where.<br/>
+**Note :** 5GB space is free for 1 year.<br/>
+**Steps for deploying springboot Application:**<br/>
+1.In S3  we are going to store springboot application jar file.<br/>
+2. create EC2 instance in EC2 instance i will install java download jar file from S3 (wget path of s3).Run jar file (java -jar jarfilename.jar).<br/>
+3. From local computer connecting to putty.From putty we can connect to EC2 .in Ec2 we will install the above things specified.<br/>
+
+ 
+ 
+ 
+ 
+ 
  
 
   
